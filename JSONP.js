@@ -7,5 +7,5 @@ app.get("/index", (req, res) => {
   res.send(`${callback}('我是郭老师')`);
 }),
   app.listen(3000, () => {
-    console.log("服务开启成功"); //yellow
+    console.log("服务开启成功了"); //yellow
   });
